@@ -11,7 +11,7 @@ function Sidebar() {
   return (
     <div>
         <div>
-            <img src={logo} width="10%" height="100px"/>
+            <img alt = "Logo of the brand" src={logo} width="10%" height="100px"/>
         </div>
         <div style={{paddingLeft: '10px'}}>
             <SidebarCard title={titles[0]} icon={icons}/>
