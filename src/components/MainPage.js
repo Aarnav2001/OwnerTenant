@@ -25,7 +25,7 @@ function App() {
       <div className="App">
         <Sidebar/>
         <div className="MainBody" style={{
-  width: {dimensions > '470px' ? 80% : 50% };}}>
+  width: {dimensions.width > '470px' ? 80% : 50% };}}>
             
         </div>
       </div>
