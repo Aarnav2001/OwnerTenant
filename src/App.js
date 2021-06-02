@@ -1,6 +1,5 @@
 import './App.css';
 
-import Sidebar from './components/Sidebar';
 import MainPage from './components/MainPage';
 import BVG from './components/BVG';
 import Moderator from './components/Moderator'
