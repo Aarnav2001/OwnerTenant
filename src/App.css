@@ -1,5 +1,25 @@
 .App {
+  text-align: left;
+  flex: 1;
+  overflow: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: red;
+  height: 100vh;
+}
+
+.MainBody {
   text-align: center;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  background-color:rgb(221, 214, 214);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 80%;
 }
 
 .App-logo {
