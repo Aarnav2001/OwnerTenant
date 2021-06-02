@@ -19,7 +19,7 @@
   top: 0;
   right: 0;
   height: 100vh;
-  width: {width > '470px' ? 80% : 70% };
+  width: {window.innerWidth > '470px' ? 80% : 70% };
 }
 
 .App-logo {
