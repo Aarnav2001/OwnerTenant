@@ -2,11 +2,30 @@ import '../App.css';
 import Sidebar from './Sidebar';
 
 function App() {
+    
+    
+    const [dimensions, setDimensions] = React.useState({ 
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
+  React.useEffect(() => {
+    function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    
+}
+
+    window.addEventListener('resize', handleResize)
+  })
+    
+    
     return (
       <div className="App">
         <Sidebar/>
         <div className="MainBody" style={{
-  width: {window.innerWidth > '470px' ? 80% : 50% };}}>
+  width: {dimensions > '470px' ? 80% : 50% };}}>
             
         </div>
       </div>
