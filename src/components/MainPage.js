@@ -5,7 +5,8 @@ function App() {
     return (
       <div className="App">
         <Sidebar/>
-        <div className="MainBody">
+        <div className="MainBody" style={{
+  width: {window.innerWidth > '470px' ? 80% : 50% };}}>
             
         </div>
       </div>
